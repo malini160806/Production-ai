@@ -1,0 +1,5 @@
+material_id,material_name,unit,on_hand_qty
+RM01,Steel Sheet,kg,5000
+RM02,ABS Resin,kg,4000
+RM03,Aluminum Sheet,kg,2000
+RM04,Electronic Components Kit,unit,1500

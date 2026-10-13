@@ -1,0 +1,7 @@
+product_id,product_name,category,unit,unit_cost,safety_stock_days,lead_time_days
+P001,Steel Bracket A,Metal Parts,unit,4.5,3,2
+P002,Steel Bracket B,Metal Parts,unit,5.2,3,2
+P003,Plastic Housing X,Plastics,unit,2.8,4,1
+P004,Plastic Housing Y,Plastics,unit,3.1,4,1
+P005,Aluminum Panel,Metal Parts,unit,7.9,5,3
+P006,Circuit Enclosure,Electronics,unit,12.4,5,3

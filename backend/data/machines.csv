@@ -1,0 +1,6 @@
+machine_id,machine_name,machine_type,capacity_units_per_hour,shift_start_min,shift_end_min,cost_per_hour
+M01,CNC Mill 1,milling,60,480,1080,25.0
+M02,CNC Mill 2,milling,60,480,1080,25.0
+M03,Injection Molder 1,molding,90,480,1080,18.0
+M04,Injection Molder 2,molding,90,480,1080,18.0
+M05,Assembly Line 1,assembly,40,480,1080,15.0

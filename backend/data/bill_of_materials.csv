@@ -1,0 +1,8 @@
+product_id,material_id,qty_per_unit
+P001,RM01,1.2
+P002,RM01,1.5
+P003,RM02,0.8
+P004,RM02,0.9
+P005,RM03,1.0
+P006,RM04,1.0
+P006,RM02,0.3

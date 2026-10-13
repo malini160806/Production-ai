@@ -1,0 +1,176 @@
+{
+  "product_id": "P002",
+  "trained_at": "2026-10-12T19:10:16.113391Z",
+  "history_start": "2026-04-16",
+  "history_end": "2026-10-12",
+  "n_history_days": 180,
+  "n_train_rows": 106,
+  "n_val_rows": 23,
+  "n_test_rows": 23,
+  "feature_columns": [
+    "dow",
+    "month",
+    "day_of_month",
+    "is_weekend",
+    "week_of_year",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_28",
+    "roll_mean_7",
+    "roll_mean_14",
+    "roll_mean_28",
+    "roll_std_7",
+    "roll_std_14",
+    "roll_std_28"
+  ],
+  "model_metrics": {
+    "mae": 4.604718788810398,
+    "rmse": 6.196722855674072
+  },
+  "baseline_metrics": {
+    "mae": 5.869565217391305,
+    "rmse": 7.66981661818076
+  },
+  "improvement_over_baseline_mae_pct": 21.55,
+  "test_comparison": [
+    {
+      "date": "2026-09-20",
+      "actual": 13.0,
+      "model_pred": 14.617395401000977,
+      "baseline_pred": 18.0
+    },
+    {
+      "date": "2026-09-21",
+      "actual": 35.0,
+      "model_pred": 32.262916564941406,
+      "baseline_pred": 41.0
+    },
+    {
+      "date": "2026-09-22",
+      "actual": 32.0,
+      "model_pred": 32.25334930419922,
+      "baseline_pred": 34.0
+    },
+    {
+      "date": "2026-09-23",
+      "actual": 22.0,
+      "model_pred": 33.13698196411133,
+      "baseline_pred": 31.0
+    },
+    {
+      "date": "2026-09-24",
+      "actual": 31.0,
+      "model_pred": 29.53974723815918,
+      "baseline_pred": 35.0
+    },
+    {
+      "date": "2026-09-25",
+      "actual": 30.0,
+      "model_pred": 30.059606552124023,
+      "baseline_pred": 29.0
+    },
+    {
+      "date": "2026-09-26",
+      "actual": 13.0,
+      "model_pred": 14.162888526916504,
+      "baseline_pred": 12.0
+    },
+    {
+      "date": "2026-09-27",
+      "actual": 15.0,
+      "model_pred": 13.765000343322754,
+      "baseline_pred": 13.0
+    },
+    {
+      "date": "2026-09-28",
+      "actual": 24.0,
+      "model_pred": 29.660554885864258,
+      "baseline_pred": 35.0
+    },
+    {
+      "date": "2026-09-29",
+      "actual": 30.0,
+      "model_pred": 30.31704330444336,
+      "baseline_pred": 32.0
+    },
+    {
+      "date": "2026-09-30",
+      "actual": 36.0,
+      "model_pred": 30.045982360839844,
+      "baseline_pred": 22.0
+    },
+    {
+      "date": "2026-10-01",
+      "actual": 28.0,
+      "model_pred": 29.249929428100586,
+      "baseline_pred": 31.0
+    },
+    {
+      "date": "2026-10-02",
+      "actual": 43.0,
+      "model_pred": 30.487306594848633,
+      "baseline_pred": 30.0
+    },
+    {
+      "date": "2026-10-03",
+      "actual": 16.0,
+      "model_pred": 13.120474815368652,
+      "baseline_pred": 13.0
+    },
+    {
+      "date": "2026-10-04",
+      "actual": 17.0,
+      "model_pred": 14.468097686767578,
+      "baseline_pred": 15.0
+    },
+    {
+      "date": "2026-10-05",
+      "actual": 37.0,
+      "model_pred": 32.670005798339844,
+      "baseline_pred": 24.0
+    },
+    {
+      "date": "2026-10-06",
+      "actual": 44.0,
+      "model_pred": 31.044963836669922,
+      "baseline_pred": 30.0
+    },
+    {
+      "date": "2026-10-07",
+      "actual": 46.0,
+      "model_pred": 34.887516021728516,
+      "baseline_pred": 36.0
+    },
+    {
+      "date": "2026-10-08",
+      "actual": 42.0,
+      "model_pred": 32.85003662109375,
+      "baseline_pred": 28.0
+    },
+    {
+      "date": "2026-10-09",
+      "actual": 42.0,
+      "model_pred": 34.06927490234375,
+      "baseline_pred": 43.0
+    },
+    {
+      "date": "2026-10-10",
+      "actual": 17.0,
+      "model_pred": 16.011688232421875,
+      "baseline_pred": 16.0
+    },
+    {
+      "date": "2026-10-11",
+      "actual": 14.0,
+      "model_pred": 16.30443000793457,
+      "baseline_pred": 17.0
+    },
+    {
+      "date": "2026-10-12",
+      "actual": 38.0,
+      "model_pred": 31.63063621520996,
+      "baseline_pred": 37.0
+    }
+  ]
+}
